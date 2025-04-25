@@ -6,6 +6,30 @@
     <title>Form Input Biodata Siswa</title>
 </head>
 <body>
-    
+    <h2>form input biodata siswa</h2>
+
+    <form id="biodataForm">
+
+        <label for="nama_siswa">nama lengkap:</label>
+        <input type="text" name="nama_siswa" id="nama_siswa">
+
+        <label for="nis_siswa">NIS:</label>
+        <input type="text" name="nis_siswa" id="nis_siswa" inputmode="numeric">
+
+        <label for="kelas_siswa">kelas:</label>
+        <input type="text" name="kelas_siswa" id="kelas_siswa">
+
+        <label for="jenis_kelamin">jenis kelamin:</label>
+        <select name="jenis_kelamin" id="jenis_kelamin">
+            <option value="">pilih jenis kelamin</option>
+            <option value="Laki-Laki">laki laki</option>
+            <option value="Perempuan">perempuan</option>
+        </select>
+
+        <label for="alamat_siswa">alamat:</label>
+        <input type="text" name="alamat_siswa" id="alamat_siswa">
+
+        <button type="submit">simpan</button>
+    </form>
 </body>
 </html>
